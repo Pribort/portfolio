@@ -27,7 +27,7 @@ Para visualizar o projeto localmente, siga as instruções abaixo:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/Pribort/portfolio.git
    ```
 
 ````
@@ -46,7 +46,7 @@ Isso abrirá o site em seu navegador padrão, e você poderá visualizar e testa
 
 Este site está disponível publicamente através do **GitHub Pages**. Você pode acessar a versão online pelo link abaixo:
 
-- [Portfólio Pessoal](https://seu-usuario.github.io/seu-repositorio)
+- [Portfólio Pessoal](https://github.com/Pribort/portfolio)
 
 ## Contribuindo
 
