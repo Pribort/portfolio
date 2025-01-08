@@ -7,20 +7,23 @@
   <meta name="description" content="Projeto Portfólio">
   <meta name="author" content="Generation Brasil">
   <meta name="keywords" content="HTML, CSS, JavaScript">
+
   <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+
+  <link rel="stylesheet" href="./assets/css/style.css">
   <title>Meu Perfil</title>
 </head>
 
 <body>
 
   <header>
-    <div id="header_content">
+    <div id="header_content" class="flex">
       <div id="titulo">
         <h1>Priscila Bortniuk</h1>
       </div>
-      <div id="menu">
+      <div>
         <nav>
-          <ul id="list">
+          <ul id="menu">
             <li>
               <a href="index.html">Home</a>
             </li>
@@ -34,7 +37,7 @@
   </header>
   <main>
 
-    <Section id="contact">
+    <div id="contact" class="flex">
       <form action="#" method="submit" id="formulario">
         <label for="name">Nome: </label>
         <input id="name" type="text" name="name" placeholder="Digite seu nome">
@@ -55,19 +58,20 @@
 
       </form>
 
-      <article id="mapa">
+      <section id="mapa" class="flex_start">
 
         <div id="endereco">
           <p>Rua Laranjeira, 88.</p>
           <p>Osasco - SP</p>
         </div>
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.8667440813997!2d-46.811316325022005!3d-23.53729476070779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceffc97a7a745b%3A0x8c4b628cabf28fb9!2sR.%20Laranjeira%2C%2088%20-%20Cidade%20das%20Flores%2C%20Osasco%20-%20SP%2C%2006184-020!5e0!3m2!1spt-BR!2sbr!4v1736258621001!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.8667440813997!2d-46.811316325022005!3d-23.53729476070779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceffc97a7a745b%3A0x8c4b628cabf28fb9!2sR.%20Laranjeira%2C%2088%20-%20Cidade%20das%20Flores%2C%20Osasco%20-%20SP%2C%2006184-020!5e0!3m2!1spt-BR!2sbr!4v1736258621001!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy">
+        </iframe>
 
-      </article>
-    </Section>
+      </section>
+    </div>
   </main>
-  <footer>
+  <footer class="flex">
     <section id="redes_sociais">
 
       <a href="https://www.linkedin.com/in/priscilabortniuk/">

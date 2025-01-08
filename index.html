@@ -7,20 +7,23 @@
   <meta name="description" content="Projeto Portfólio">
   <meta name="author" content="Generation Brasil">
   <meta name="keywords" content="HTML, CSS, JavaScript">
+
   <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+
+  <link rel="stylesheet" href="./assets/css/style.css">
   <title>Meu Perfil</title>
 </head>
 
 <body>
 
   <header>
-    <div id="header_content">
+    <div id="header_content" class="flex">
       <div id="titulo">
         <h1>Priscila Bortniuk</h1>
       </div>
-      <div id="menu">
+      <div>
         <nav>
-          <ul id="list">
+          <ul id="menu">
             <li>
               <a href="index.html">Home</a>
             </li>
@@ -37,39 +40,38 @@
 
   <main>
 
-    <section id="about">
-
+    <section id="about" class="flex_start">
       <h2>Quem é a Priscila?</h2>
 
-      <div id="conteudo">
-        <img src="./assets/img/perfil.jpg" alt="Foto do criador desse conteudo" />
-
-        <article id="sobre_texto">
-          <p>
-            👋 Olá! Sou a Pri, mãe de duas crianças incríveis, apaixonada por desafios e pelo que há de bonito na vida – sejam histórias envolventes nos livros, momentos em família ou soluções criativas na programação. Gosto de me divertir jogando com meu marido e amigos, além de carregar desde pequena uma grande admiração pela cultura asiática. 📚🎮
-
-            Minha jornada na tecnologia começou em 2021, mas foi em 2024 que decidi me aprofundar de vez nesse universo. Aprendi Java, Spring Boot, SQL, criação de APIs e ferramentas como HTML, CSS, JavaScript (incluindo Tailwind, DOM, ReactJS e TypeScript), sempre com muita dedicação e sede de conhecimento. Também me apaixonei por metodologias como Scrum, que ajudam a transformar ideias em realidade.
-
-            Conciliar estudos com casa, filhos e responsabilidades me trouxe lições valiosas. Minha persistência foi posta à prova muitas vezes, mas minha orientação para o futuro, comunicação, responsabilidade pessoal e proatividade sempre me ajudaram a seguir em frente.
-
-            Obrigada por dedicar um tempinho para me conhecer melhor! Se quiser saber mais sobre meu trabalho, projetos e interesses, fique à vontade para acessar minhas redes sociais (está logo abaixo do meu vídeo favorito).
-          </p>
-
-        </article>
+      <div class="container">
+        <div id="conteudo" class="flex">
+          <img src="./assets/img/perfil.jpg" alt="Foto do criador desse conteudo" class="img_profile" />
+          <article id="sobre_texto">
+            <p>
+              👋 Olá! Sou a Pri, mãe de duas crianças incríveis, apaixonada por desafios e pelo que há de bonito na vida – sejam histórias envolventes nos livros, momentos em família ou soluções criativas na programação. Gosto de me divertir jogando com meu marido e amigos, além de carregar desde pequena uma grande admiração pela cultura asiática. 📚🎮
+              <br>
+              Minha jornada na tecnologia começou em 2021, mas foi em 2024 que decidi me aprofundar de vez nesse universo. Aprendi Java, Spring Boot, SQL, criação de APIs e ferramentas como HTML, CSS, JavaScript (incluindo Tailwind, DOM, ReactJS e TypeScript), sempre com muita dedicação e sede de conhecimento. Também me apaixonei por metodologias como Scrum, que ajudam a transformar ideias em realidade.
+              <br>
+              Conciliar estudos com casa, filhos e responsabilidades me trouxe lições valiosas. Minha persistência foi posta à prova muitas vezes, mas minha orientação para o futuro, comunicação, responsabilidade pessoal e proatividade sempre me ajudaram a seguir em frente.
+              <br>
+              Obrigada por dedicar um tempinho para me conhecer melhor! Se quiser saber mais sobre meu trabalho, projetos e interesses, fique à vontade para acessar minhas redes sociais (está logo abaixo do meu vídeo favorito).
+            </p>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section id="video">
+    <section id="video" class="flex_start">
 
       <h2>Meu vídeo favorito:</h2>
-      <div id="youtube">
+      <div id="youtube" class="flex">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/mGdfrvruGzo?si=dBiqHqXSQjcpoLQM&amp;start=60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
       </div>
     </section>
   </main>
 
-  <footer>
+  <footer class="flex">
     <section id="redes_sociais">
 
       <a href="https://www.linkedin.com/in/priscilabortniuk/">
