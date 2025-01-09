@@ -46,7 +46,7 @@ Isso abrirá o site em seu navegador padrão, e você poderá visualizar e testa
 
 Este site está disponível publicamente através do **GitHub Pages**. Você pode acessar a versão online pelo link abaixo:
 
-- [Portfólio Pessoal](https://github.com/Pribort/portfolio)
+- [Portfólio Pessoal](pribort.github.io/portfolio/)
 
 ## Contribuindo
 
